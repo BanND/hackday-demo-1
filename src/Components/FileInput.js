@@ -11,7 +11,7 @@ export class FileInput extends React.Component {
         // highlight-range{3}
         event.preventDefault();
         alert(
-            `Selected file - ${this.fileInput.current.files[0].name}`
+            `Selected file - ${this.fileInput.current.files[0].name} && attribute - ${this.fileInput.current}`
         );
     }
 
