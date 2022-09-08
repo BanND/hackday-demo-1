@@ -26,7 +26,7 @@ export class UncontrolledComponent extends React.Component {
                         onChange={(event) => this.handleChange(event.target.value)}
                         ref={this.input} />
                 </label>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Uncontrolled" />
             </form>
         );
     }
