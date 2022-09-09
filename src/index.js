@@ -7,6 +7,8 @@ import {ControlledComponent} from "./Components/ControlledComponent";
 import {UncontrolledComponent} from "./Components/UncontrolledComponent";
 import {FileInput} from "./Components/FileInput";
 import {FunctionComponentINSIDE} from "./Components/FunctionComponentINSIDE"
+import {ReactLazy} from "./ReactLazy/ReactLazy";
+import {ReactLazyOther} from "./ReactLazy/ReactLazyOther";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +30,15 @@ root.render(
         <br/>
         <FunctionComponentINSIDE/>
         <a>-------------------------------------------------------------</a>
+        <br/>
+        <div id="display-block">
+            <div id="child">
+                    <div><ReactLazy/></div>
+            </div>
+            <div id="child">
+                    <div><ReactLazyOther/></div>
+            </div>
+        </div>
         <br/>
 
     </React.StrictMode>

@@ -6,6 +6,29 @@
   height: 10vmin;
   pointer-events: none;
 }
+h1 {
+  padding: 30px;
+}
+#card-body {
+  display: inline-flex;
+  padding: 5px;
+  margin: 10px 10px;
+  border: 1px solid rgb(93, 171, 207);
+  border-radius: 8px;
+  background: lightblue;
+}
+#loading {
+  background: olivedrab;
+  padding: 10px;
+  margin: 10px 10px;
+  text-align: center;
+  text-decoration: red;
+}
+#loading1 {
+  text-align: center;
+  text-decoration: red;
+  background: #61dafb;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
